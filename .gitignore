@@ -1,0 +1,6 @@
+.bundle
+.jekyll-cache
+vendor
+_site
+images/.DS_Store
+images/logo/.DS_Store

@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '4.0.0'
-
 gem 'eventmachine', '1.2.7', git:'https://github.com/eventmachine/eventmachine.git', tag: 'v1.2.7'
 gem 'nokogiri'
 gem 'rack', '~> 2.0.1'
 gem 'rspec'
+
+gem 'jekyll', '4.0.0'
 
 group :jekyll_plugins do
   gem 'jekyll-archives', '2.1.1'
