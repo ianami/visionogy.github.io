@@ -9,10 +9,10 @@
     link: /contact/
 - links:
   - name: Login
-    link: /
+    link: /contact
     new_window: true
   - name: Sign Up
-    link: /
+    link: /contact
     new_window: true
   # - name: Docs
   #   link: /

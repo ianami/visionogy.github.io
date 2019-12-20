@@ -15,10 +15,10 @@
   new_window: false
   highlight: false
 - name: Login
-  link: /
+  link: /contact
   new_window: true
   highlight: false
 - name: Sign Up
-  link: /
+  link: /contact
   new_window: true
   highlight: true
