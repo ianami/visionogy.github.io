@@ -22,3 +22,15 @@
   link: /contact
   new_window: true
   highlight: true
+- name:
+  link:
+  new_window: true
+  highlight: false
+- name: ENGLISH
+  link: http://visionogy.com
+  new_window: false
+  highlight: false
+- name: 中文
+  link: http://visionogy.com/cn/
+  new_window: false
+  highlight: false
