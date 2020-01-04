@@ -15,7 +15,7 @@
   new_window: false
   highlight: false
 - name: Login
-  link: /contact
+  link: http://app.visionogy.com/
   new_window: true
   highlight: false
 - name: Sign Up
