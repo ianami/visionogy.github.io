@@ -9,7 +9,7 @@
     link: /contact/
 - links:
   - name: Login
-    link: http://app.visionogy.com/
+    link: http://appd.visionogy.com/
     new_window: true
   - name: Sign Up
     link: /contact
