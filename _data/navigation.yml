@@ -15,7 +15,7 @@
   new_window: false
   highlight: false
 - name: Login
-  link: http://appd.visionogy.com/
+  link: https://appd.visionogy.com/
   new_window: true
   highlight: false
 - name: Sign Up
