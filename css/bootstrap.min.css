@@ -4230,8 +4230,7 @@ tbody.collapse.show {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    max-height: auto;
-    height: auto;
+    display: flex;
 }
 
 .navbar-toggler {
