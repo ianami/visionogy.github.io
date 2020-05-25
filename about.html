@@ -82,7 +82,7 @@
                             <h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".1s">
                                       About us
                             </h3>
-                           <a class="boxed-btn3 wow fadeInLeft"  data-wow-duration="1s" data-wow-delay=".2s" href="https://www.youtube.com/channel/UCMhYmzgIqaOn371e2bZev4Q/videos">Visit Our Video Batching</a>
+                           <a class="boxed-btn3 wow fadeInLeft"  data-wow-duration="1s" data-wow-delay=".2s" target="_blank" href="https://www.youtube.com/channel/UCMhYmzgIqaOn371e2bZev4Q/videos">Visit Our Video Batching</a>
                         </div>
                     </div>
                 </div>
@@ -290,6 +290,19 @@
                             <li><a class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s" href="https://www.youtube.com/channel/UCMhYmzgIqaOn371e2bZev4Q/videos"> <i class="fa fa-youtube"></i> </a></li>
                         </ul>
                     </div>
+                </div>
+
+                <div class="language-picker js-language-picker">
+                    <p></p>
+                    <form action="" class="language-picker__form">
+                      <label for="language-picker-select">Select your language</label>
+                  
+                      <select  onchange="if (this.value) window.location.href=this.value" name="language-picker-select" id="language-picker-select">
+                        <option lang="en" value="https://www.visionogy.com">English</option>
+                        <option lang="zh" value="https://www.visionogy.com/cn">Chinese</option>
+                        <!-- other language options -->
+                      </select>
+                    </form>
                 </div>
             </div>
         </div>
