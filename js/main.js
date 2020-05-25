@@ -12,9 +12,7 @@ $(window).on('scroll', function () {
 	}
 });
 
-$(function(){
-  $('.selectpicker').selectpicker();
-});
+
 
 
 
