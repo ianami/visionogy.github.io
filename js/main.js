@@ -13,11 +13,7 @@ $(window).on('scroll', function () {
 });
 
 
-
-
-
-$(document).ready(function(){
-  // play video with hover
+$(document).ready(function() {
   $(".myvideos").on("mouseover", function(event) {
     this.play();
 
@@ -25,6 +21,10 @@ $(document).ready(function(){
     this.pause();
 
   });
+})
+
+
+$(document).ready(function(){
 
 // mobile_menu
 var menu = $('ul#navigation');
