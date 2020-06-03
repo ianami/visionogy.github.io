@@ -17,6 +17,14 @@ $(window).on('scroll', function () {
 
 
 $(document).ready(function(){
+  // play video with hover
+  $(".myvideos").on("mouseover", function(event) {
+    this.play();
+
+  }).on('mouseout', function(event) {
+    this.pause();
+
+  });
 
 // mobile_menu
 var menu = $('ul#navigation');
