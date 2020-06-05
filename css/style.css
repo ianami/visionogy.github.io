@@ -7,6 +7,8 @@
 /* 1. Theme default css */
 @import url("https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
 /* line 5, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
+html { scroll-behavior: smooth; } 
+
 body {
   font-family: "Muli", sans-serif;
   font-weight: normal;
