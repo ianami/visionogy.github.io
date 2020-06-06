@@ -116,7 +116,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mb-5 mb-lg-0">
-                        <div id="retainable-rss-embed" 
+                        <!-- <div id="retainable-rss-embed" 
                         data-rss="https://medium.com/feed/@anne.spulber" 
                         data-maxcols="2" 
                         data-layout="grid" 
@@ -124,8 +124,11 @@
                         data-readmore="Read the rest" 
                         data-buttonclass="boxed-btn2" 
                         data-offset="-200">&#160;</div>
-                    </div>
-                 
+                    </div> -->
+                    <div id="medium-widget"></div>
+                    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+                    <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@visionogy","postsPerLine":1,"limit":4,"picture":"big","fields":["description","author","claps","publishAt"],"ratio":"landscape"}})</script>
+                
                 </div>
             </div>
         </section>
